@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":576,"text":"Failure to do these can result in penalties, surcharges, and interest."},{"start":5376,"text":"The BIR has also stepped up monitoring"},{"start":8320,"text":"by partnering with digital platforms to identify users"},{"start":12512,"text":"who may be earning income but are not registered."},{"start":15712,"text":"As lawyers,"},{"start":16832,"text":"you may encounter clients who are earning online but unaware of their obligations."},{"start":22048,"text":"Part of your role is to educate and guide them"},{"start":24736,"text":"through proper registration,"},{"start":26559,"text":" tax computation, and return filing."}]}]};
+    window.globalLoadJsAsset('story_content/67IQz4Q7gf9_transcripts.js', JSON.stringify(data));
+})();

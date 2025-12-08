@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":448,"text":" Welcome back. We've covered the taxation of digital services,"},{"start":4352,"text":"cross-border transactions, and compliance."},{"start":7008,"text":"Now we turn to an increasingly visible and sometimes controversial"},{"start":11936,"text":"part of the digital economy: social media influencers"},{"start":16352,"text":"and online sellers."},{"start":18560,"text":"The short answer to the question in today's title is,"},{"start":22048,"text":"yes, they are subject to tax."},{"start":25408,"text":"But as always, the law has nuances that we,"},{"start":28832,"text":"as legal professionals, interpret."},{"start":33024,"text":"Let's start with the basics."}]}]};
+    window.globalLoadJsAsset('story_content/6MImXsGtBS8_transcripts.js', JSON.stringify(data));
+})();
