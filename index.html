@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Courses</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .course-card {
+            background: white;
+            border-radius: 15px;
+            padding: 35px 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .course-icon {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .course-title {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .course-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .launch-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .launch-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .features {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+
+        .feature {
+            display: inline-block;
+            margin: 10px 25px;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .feature::before {
+            content: "✓ ";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .courses-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 E-Learning Courses</h1>
+            <p class="subtitle">Choose a course to begin your learning journey</p>
+        </header>
+
+        <div class="courses-grid">
+            <a href="space down showdown - Storyline output/story.html" class="course-card">
+                <div class="course-icon">🚀</div>
+                <h2 class="course-title">Space Down Showdown</h2>
+                <p class="course-description">An interactive space adventure learning experience</p>
+                <span class="launch-btn">Launch Course</span>
+            </a>
+
+            <a href="McAfee template demo/story.html" class="course-card">
+                <div class="course-icon">🔒</div>
+                <h2 class="course-title">McAfee Security</h2>
+                <p class="course-description">Cybersecurity awareness and best practices</p>
+                <span class="launch-btn">Launch Course</span>
+            </a>
+
+            <a href="netflix style demo/story.html" class="course-card">
+                <div class="course-icon">🎬</div>
+                <h2 class="course-title">Netflix Style Demo</h2>
+                <p class="course-description">Modern streaming service interface training</p>
+                <span class="launch-btn">Launch Course</span>
+            </a>
+
+            <a href="safety demo/story.html" class="course-card">
+                <div class="course-icon">⚠️</div>
+                <h2 class="course-title">Safety Training</h2>
+                <p class="course-description">Essential workplace safety protocols</p>
+                <span class="launch-btn">Launch Course</span>
+            </a>
+        </div>
+
+        <div class="features">
+            <div class="feature">Interactive Learning</div>
+            <div class="feature">Self-Paced</div>
+            <div class="feature">Mobile Friendly</div>
+            <div class="feature">Track Progress</div>
+        </div>
+    </div>
+</body>
+</html>
